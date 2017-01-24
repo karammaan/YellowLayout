@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallpaper"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create your"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="account!"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:background="#fff"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+
+            >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height= "30dp"
+            android:src="@drawable/user"
+            android:background="#fff"
+
+            android:layout_gravity="center"
+            ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add your"
+                android:textColor="#000"
+                android:background="#fff"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="photo"
+            android:background="#fff"
+            android:textColor="#000"
+
+
+            /> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="80dp"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_marginLeft="50dp"
+            android:background="#fff"
+           android:layout_marginRight="50dp"
+
+
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height= "30dp"
+                android:src="@drawable/envelope"
+                android:background="#fff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="E-mail"
+                android:textColor="#000"
+                android:background="#fff"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+
+
+                />
+
+
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+              android:layout_marginLeft="50dp"
+                android:background="#fff"
+                android:layout_marginRight="50dp"
+
+
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height= "30dp"
+                    android:src="@drawable/padlock"
+                    android:background="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColor="#000"
+                    android:background="#fff"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:background="#fff"
+                android:layout_marginRight="50dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height= "30dp"
+                    android:src="@drawable/padlock"
+                    android:background="#fff"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:textColor="#000"
+                    android:background="#fff"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREATE ACCOUNT"
+                android:background="#0ebef4"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+
+
+                />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account?Login."
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
